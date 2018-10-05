@@ -1,0 +1,9 @@
+.cont-packages {
+    width: 100%;
+    display: flex;
+}
+.head-data, .cont-item {
+    width: 120px;
+    border: solid 1px gray ;
+    float: left
+}
