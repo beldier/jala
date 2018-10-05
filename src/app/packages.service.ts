@@ -10,4 +10,7 @@ getPackage(){
   //cambiar por localhost para conectar con el backend
   return this.httpServ.get('http://late-glade-8787.getsandbox.com/packages');
 }
+addNewPackage(newPackage){
+  this.httpServ.post('http://late-glade-8787.getsandbox.com/packages',newPackage);
+}
 }

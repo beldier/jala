@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="element"><label class="label">Package Name:<input class="input-style" type="text" name="currentPackage.name" ng-model="currentPackage.name"></label></div> 
+    <div class="element"><label class="label">Description: 
+      <input class="input-style" type="text" name="currentPackage.description" ng-model="currentPackage.description"></label>
+    </div>
+    <div class="element"><label class="label">Price: 
+      <input class="input-style" type="number" name="currentPackage.price" ng-model="currentPackage.price"></label></div>
+    <div class="element"><label class="label">Departure Date:
+      <input class="input-style" type="date" name="currentPackage.departureDate" ng-model="currentPackage.departureDate">   </label></div>
+    <div class="element"><label class="label">Arrive Date:
+      <input class="input-style" type="date" name="currentPackage.arriveDate" ng-model="currentPackage.arriveDate"></label>
+    </div>
+    <div class="element"><label class="label">Map:<input class="input-style" type="text" name="currentPackage.googleLocation"></label></div>
+    <div class="container-btn"> <button class="style-btn" (click)="addPackages(currentPackage)">Add Package</button>
+   </div>
+   </div>
