@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { PruebaComponent } from './prueba/prueba.component';
 import {PackagesService} from './packages.service';
 import { ListComponent } from './list/list.component';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { PackageComponent } from './package/package.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     PruebaComponent,
-    ListComponent
+    ListComponent,
+    PackageComponent
   ],
   imports: [
     BrowserModule,
